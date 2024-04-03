@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+  }
+  
+  body{
+    background-color: #0A0A23;
+    color: white;
+    font-family: Verdana, sans-serif;
+  }
+  
+  #logo-img{
+    height: 30px;
+  }
+  
+  #logo-div{
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  #main-div{
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  #main-div-input{
+    background-color: white;
+    min-height: 100px;
+    color: #0A0A23;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: min(100vw, 450px);
+  }
+  
+  #main-div-heading h1{
+    font-size: 40px;
+    margin-bottom: 30px;
+  }
+  
+  #text-input{
+    margin-top: 20px;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-bottom: 2px solid #5a01a7;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  #input-label{
+    font-size: 18px;
+  }
+  
+  #main-div-input-set{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+  }
+  
+  #check-btn{
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    margin-left: 5px;
+    background-color: #5a01a7;
+    color: white;
+    border: none;
+  }
+  
+  #main-div-tip{
+    background-color: #07471B;
+    width: min(100vw, 450px);
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 1.3rem;
+  }
+  
+  #main-div-tip p{
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  #user-input{
+    font-size: 1.4rem;
+    margin-top: 20px;
+  }
